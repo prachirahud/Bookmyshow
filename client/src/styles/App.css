@@ -90,12 +90,10 @@ input {
 }
 
 .selectColumn {
-    /* flex: 70%; */
     padding: 10px;
 }
 
 .bookingColumn {
-    /* flex: 30%; */
     margin-top: 37.2px;
     padding: 20px;
 }

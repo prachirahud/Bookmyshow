@@ -30,7 +30,7 @@ This documentation provides detailed information on how to interact with our API
 	Description  :	This endpoint allows you to create a new movie booking.
 	Request body :
 				{ 
-				 "movie": "Tenet", 
+				 "movie": "Animal", 
 		 		 "slot": "03:00 PM",
 		  		 "seats": 
 				 	{ "A1": 0, "A2": 0, "A3": 4, "A4": 0, "D1": 0, "D2": 0 }
@@ -45,7 +45,7 @@ This documentation provides detailed information on how to interact with our API
    		    "bookingDetails":
                 	{
 					"_id": "65153eb65c005b4518695ee3",
-					"movie": "Tenet",
+					"movie": "Animal",
 					"slot": "03:00 PM",
 					"seats": {
 								"A1": 0,
@@ -104,7 +104,7 @@ In Other Cases if not able to book it will throw errors depend on the conditions
 	Status : 200OK,
 	Response body:
 			{
-    		 "movie": "Tenet",
+    		 "movie": "Animal",
    			 "seats": {
 						"A1": 0,
 						"A2": 0,
@@ -138,13 +138,10 @@ Api Links/Endpoints
 
 For Frontend :-<br>
 	On  local System = http://localhost:3000
-	<br>
-	Live Link  	=  https://bookmyshow-3.netlify.app/
-
+	
 For Backend :- <br>
 	POST Request =  http://localhost:8080/api/booking  
 	GET Request =  http://localhost:8080/api/booking  
-	Live Link = https://bookmyshow-3.onrender.com/api/booking
 
 =====================================================================
 
