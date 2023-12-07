@@ -7,8 +7,6 @@ BookMyShow is a web application that allows users to book movie tickets.
             This Appliction have user friendly interface so users can select the available movie ,time slot and seats which is given on display.
             Our Project uses both local Storage and MongoDB for storing the selected data temporarly and permanently in database.
 
-Live Link :-
-project Link :
 
 ## Technologies :
 This project uses the following technologies :-
@@ -71,24 +69,6 @@ This project uses the following technologies :-
 
 
  
-## Project Cloning and Running
-
- for clone
-
-  
-```
-
-Go to the project directory
-
-```bash
-  cd bookmyshow
-```
-
-Install dependencies on both server and client folder
-
-```bash
-  npm install
-```
 
 ### Starting the server :  
 i) To run both Frontend & Backend together open terminal on server folder and write command
