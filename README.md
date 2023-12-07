@@ -31,41 +31,44 @@ This project uses the following technologies :-
             For Backend =  http://localhost:8080/api/booking 
 
 ## Folder structure
-client/
-┣ dist/
-┃ ┣ index.html
-┃ ┗ index_bundle.js
-┣ src/
-┃ ┣ components/
-┃ ┃ ┣ App.js
-┃ ┃ ┣ BookMyShow.js
-┃ ┃ ┣ data.js
-┃ ┃ ┗ LastBooking.js
-┃ ┣ styles/
-┃ ┃ ┣ App.css
-┃ ┃ ┗ bootstrap.min.css
-┃ ┣ index.html
-┃ ┗ index.js
-┣ .babelrc
-┣ .gitignore
-┣ package-lock.json
-┣ package.json
-┗ webpack.config.js
-server/
-┣ routes/
-┃ ┣ LastBooking.js
-┃ ┗ NewBooking.js
-┣ testCases/
-┃ ┣ createBooking.test.js
-┃ ┣ lastBooking.test.js
-┃ ┗ removeLastBooking.test.js
-┣ .env
-┣ .gitignore
-┣ connector.js
-┣ index.js
-┣ package-lock.json
-┣ package.json
-┗ schema.js
+
+# client
+* [dist/](.\client\dist)
+  * [index.html](.\client\dist\index.html)
+  * [index_bundle.js](.\client\dist\index_bundle.js)
+* [src/](.\client\src)
+  * [components/](.\client\src\components)
+    * [App.js](.\client\src\components\App.js)
+    * [BookMyShow.js](.\client\src\components\BookMyShow.js)
+    * [data.js](.\client\src\components\data.js)
+    * [LastBooking.js](.\client\src\components\LastBooking.js)
+  * [styles/](.\client\src\styles)
+    * [App.css](.\client\src\styles\App.css)
+    * [bootstrap.min.css](.\client\src\styles\bootstrap.min.css)
+  * [index.html](.\client\src\index.html)
+  * [index.js](.\client\src\index.js)
+* [.babelrc](.\client\.babelrc)
+* [.gitignore](.\client\.gitignore)
+* [package-lock.json](.\client\package-lock.json)
+* [package.json](.\client\package.json)
+* [webpack.config.js](.\client\webpack.config.js)
+
+# server
+* [routes/](.\server\routes)
+  * [LastBooking.js](.\server\routes\LastBooking.js)
+  * [NewBooking.js](.\server\routes\NewBooking.js)
+* [testCases/](.\server\testCases)
+  * [createBooking.test.js](.\server\testCases\createBooking.test.js)
+  * [lastBooking.test.js](.\server\testCases\lastBooking.test.js)
+  * [removeLastBooking.test.js](.\server\testCases\removeLastBooking.test.js)
+* [.env](.\server\.env)
+* [.gitignore](.\server\.gitignore)
+* [connector.js](.\server\connector.js)
+* [index.js](.\server\index.js)
+* [package-lock.json](.\server\package-lock.json)
+* [package.json](.\server\package.json)
+* [schema.js](.\server\schema.js)
+
 
  
 ## Project Cloning and Running
