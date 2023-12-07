@@ -30,7 +30,44 @@ This project uses the following technologies :-
             For Frontend = http://localhost:3000/, 
             For Backend =  http://localhost:8080/api/booking 
 
-              
+## Folder structure
+client/
+┣ dist/
+┃ ┣ index.html
+┃ ┗ index_bundle.js
+┣ src/
+┃ ┣ components/
+┃ ┃ ┣ App.js
+┃ ┃ ┣ BookMyShow.js
+┃ ┃ ┣ data.js
+┃ ┃ ┗ LastBooking.js
+┃ ┣ styles/
+┃ ┃ ┣ App.css
+┃ ┃ ┗ bootstrap.min.css
+┃ ┣ index.html
+┃ ┗ index.js
+┣ .babelrc
+┣ .gitignore
+┣ package-lock.json
+┣ package.json
+┗ webpack.config.js
+server/
+┣ routes/
+┃ ┣ LastBooking.js
+┃ ┗ NewBooking.js
+┣ testCases/
+┃ ┣ createBooking.test.js
+┃ ┣ lastBooking.test.js
+┃ ┗ removeLastBooking.test.js
+┣ .env
+┣ .gitignore
+┣ connector.js
+┣ index.js
+┣ package-lock.json
+┣ package.json
+┗ schema.js
+
+ 
 ## Project Cloning and Running
 
  for clone
