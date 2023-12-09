@@ -8,6 +8,7 @@ module.exports = {
         filename: "index_bundle.js",
     },
     devServer: {
+        allowedHosts: 'all',
         proxy: {
             '/api/**': {
                 target: 'https://server-y91d.onrender.com/',
