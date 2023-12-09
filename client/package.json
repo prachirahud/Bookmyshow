@@ -3,15 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    // "build": "npm i",
-    "test": "mocha 'testCases/*.test.js' --reporter mochawesome --recursive  --timeout 60000 --exit",
-    "run": "node ./index.js",
-    // "start": "concurrently \"nodemon index.js\" \"cd.. && cd client && npm run start \"",
-    "dev": "nodemon ./index.js",
-    "start": "nodemon index.js",
-    "build": "npm install && npm run build"
-  },
+"scripts": {
+  "test": "cypress run --headless --reporter mochawesome",
+  "start": "webpack-dev-server --mode development --watch --open --hot --port 3000",
+  "build": "webpack --mode production"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
