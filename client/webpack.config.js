@@ -8,9 +8,10 @@ module.exports = {
         filename: "index_bundle.js",
     },
     devServer: {
+        allowedHosts: 'all',
         proxy: {
             '/api/**': {
-                target: 'http://localhost:8080/',
+                target: 'https://server-y91d.onrender.com/',
                 secure: false,
                 changeOrigin: true
             }
