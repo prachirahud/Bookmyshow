@@ -8,6 +8,12 @@ BookMyShow is a web application that allows users to book movie tickets.
             Our Project uses both local Storage and MongoDB for storing the selected data temporarly and permanently in database.
 
 
+
+Live Link :- project Link :https://backend-gdjc.onrender.com/
+
+
+Github link:-  https://github.com/prachirahud/Bookmyshow
+ 
 ## Technologies :
 This project uses the following technologies :-
 
